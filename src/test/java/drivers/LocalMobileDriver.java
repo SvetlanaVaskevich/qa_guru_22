@@ -28,7 +28,7 @@ public class LocalMobileDriver implements WebDriverProvider {
     @Nonnull
     public WebDriver createDriver(Capabilities capabilities) {
 
-        EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class,System.getProperties());
+        EmulatorConfig config = ConfigFactory.create(EmulatorConfig.class);
 
         File app = downloadApk();
 
