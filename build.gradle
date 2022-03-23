@@ -63,9 +63,9 @@ tasks.withType(Test) {
     }
 }
 
-task emulator_selenide(type: Test) {
+task mobile_selenide(type: Test) {
     useJUnitPlatform {
-        includeTags 'emulator_selenide'
+        includeTags 'mobile_selenide'
     }
 }
 
