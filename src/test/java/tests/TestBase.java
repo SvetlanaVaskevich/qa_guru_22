@@ -36,10 +36,10 @@ public class TestBase {
         Configuration.browserSize = null;
     }
 
-    @BeforeEach
+    /*@BeforeEach
     public void startDriver(){
         open();
-    }
+    }*/
 
     @AfterEach
     public void afterEach(){
